@@ -5,11 +5,16 @@ import { useStaticQuery, graphql } from "gatsby";
 interface ISeo {
   description?: string;
   lang?: string;
-  meta?: Array<Object>;
-  title?: string;
+  meta?: Array<any>;
+  title: string;
 }
 
-const SEO: React.FC<ISeo> = ({ description, lang, meta, title }) => {
+const SEO: React.FC<ISeo> = ({
+  description = ``,
+  lang = `en`,
+  meta = [],
+  title,
+}) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -34,7 +39,7 @@ const SEO: React.FC<ISeo> = ({ description, lang, meta, title }) => {
       }}
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : undefined}
-      meta={meta?.concat([
+      meta={[
         {
           name: `description`,
           content: metaDescription,
@@ -67,7 +72,7 @@ const SEO: React.FC<ISeo> = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ])}
+      ].concat(meta)}
     />
   );
 };

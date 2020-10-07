@@ -38,7 +38,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "type-check:watch": "npm run type-check -- --watch"
   },
   "repository": {
     "type": "git",
