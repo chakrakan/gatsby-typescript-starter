@@ -9,7 +9,7 @@ const Header: React.FC<IHeader> = ({ siteTitle }) => {
   return (
     <header
       style={{
-        background: `rebeccapurple`,
+        background: `hsla(14, 100%, 53%, 0.6)`,
         marginBottom: `1.45rem`,
       }}
     >
