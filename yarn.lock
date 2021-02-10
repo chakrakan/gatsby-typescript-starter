@@ -12721,10 +12721,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.1.4:
-  version "4.1.4"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.4.tgz"
-  integrity sha512-+Uru0t8qIRgjuCpiSPpfGuhHecMllk5Zsazj5LZvVsEStEjmIRRBZe+jHjGQvsgS7M1wONy2PQXd67EMyV6acg==
+typescript@4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.5.tgz"
+  integrity sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
 
 unbzip2-stream@^1.0.9:
   version "1.4.3"
