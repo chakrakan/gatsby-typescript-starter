@@ -6,10 +6,10 @@
   "author": "Kanisk Chakraborty <dev.kanisk@gmail.com>",
   "dependencies": {
     "@types/react-helmet": "6.1.1",
-    "gatsby": "3.5.0",
+    "gatsby": "3.5.1",
     "gatsby-image": "3.5.0",
     "gatsby-plugin-manifest": "3.5.0",
-    "gatsby-plugin-offline": "4.5.0",
+    "gatsby-plugin-offline": "4.5.1",
     "gatsby-plugin-react-helmet": "4.5.0",
     "gatsby-plugin-sharp": "3.5.0",
     "gatsby-plugin-typescript": "3.5.0",
